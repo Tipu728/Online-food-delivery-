@@ -1,0 +1,15 @@
+call adduserMenuSelectionProcedure(2,'2023-2-24 12:12:12','1,2');
+call placeOrderProcedure(2,1);
+call selection_info(3);
+call GetUserFavoriteRestaurantsProcedure(1);
+call AddUserProcedure();
+call AddRestaurantProcedure();
+call AddMenuItemProcedure();
+call GetOrderDetails(3);
+call addreviewProcedure(3,5,5,'nyc');
+call addpayment(1,'cash on delivary');
+call paymentDone();
+call restaurantsByRating();
+call itemsSlectByUser(1);
+call InsertDeliveryProcedure(1,'delivered');
+call GetUsersByDeliveryStatus('Delivered');
